@@ -8,6 +8,8 @@ import { sortType, sortDate, startDate, endDate } from './Redux/Actions/Filter';
 import store from './Redux/combineReducer';
 import selectiveActions from './Redux/SelectiveActions';
 
+import 'react-dates/lib/css/_datepicker.css';
+
 
 
 store.dispatch(addEx({ desc: 'water bill', amount: 235}));

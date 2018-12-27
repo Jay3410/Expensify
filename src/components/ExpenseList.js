@@ -6,7 +6,7 @@ import { sortType, sortDate, pickStartDate, pickEndDate } from '../Redux/Actions
 
 import moment from 'moment';
 import { DateRangePicker } from 'react-dates';
-import 'react-dates/lib/css/_datepicker.css';
+
 
 class ExpenseList extends React.Component {
     state = {
